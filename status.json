@@ -1,0 +1,1650 @@
+{
+  "generated_at": "2026-10-31T17:06:01.455758Z",
+  "agents": {
+    "bunsen": {
+      "display": "Bunsen",
+      "role": "lab \u2014 model behaviour experiments",
+      "schedule": "daily",
+      "cadence": "daily",
+      "expected_duration_min": 15,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T03:15:09Z",
+      "last_offline": {
+        "t": "2026-10-31T03:15:13Z",
+        "exit_code": 0,
+        "duration_sec": 4
+      },
+      "next_run": "2026-11-01T00:30:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-28T02:30:08Z",
+          "ts": 1793154608,
+          "agent": "bunsen",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T08:09:53Z",
+          "ts": 1793174993,
+          "agent": "bunsen",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 20385
+        },
+        {
+          "t": "2026-10-29T02:30:11Z",
+          "ts": 1793241011,
+          "agent": "bunsen",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T10:09:41Z",
+          "ts": 1793268581,
+          "agent": "bunsen",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 27570
+        },
+        {
+          "t": "2026-10-30T02:30:06Z",
+          "ts": 1793327406,
+          "agent": "bunsen",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T03:32:25Z",
+          "ts": 1793331145,
+          "agent": "bunsen",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 3739
+        },
+        {
+          "t": "2026-10-31T02:30:07Z",
+          "ts": 1793413807,
+          "agent": "bunsen",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T02:30:07Z",
+          "ts": 1793413807,
+          "agent": "bunsen",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 0
+        },
+        {
+          "t": "2026-10-31T03:15:09Z",
+          "ts": 1793416509,
+          "agent": "bunsen",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T03:15:13Z",
+          "ts": 1793416513,
+          "agent": "bunsen",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 4
+        }
+      ]
+    },
+    "custos": {
+      "display": "Custos",
+      "role": "external-surface worker \u2014 moderation + upkeep",
+      "schedule": "daily",
+      "cadence": "daily",
+      "expected_duration_min": 15,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T06:33:20Z",
+      "last_offline": {
+        "t": "2026-10-31T06:33:24Z",
+        "exit_code": 42,
+        "duration_sec": 4
+      },
+      "next_run": "2026-11-01T06:30:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-27T06:33:03Z",
+          "ts": 1793082783,
+          "agent": "custos",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-27T06:39:50Z",
+          "ts": 1793083190,
+          "agent": "custos",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 407
+        },
+        {
+          "t": "2026-10-28T06:33:08Z",
+          "ts": 1793169188,
+          "agent": "custos",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T06:37:15Z",
+          "ts": 1793169435,
+          "agent": "custos",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 247
+        },
+        {
+          "t": "2026-10-29T06:33:28Z",
+          "ts": 1793255608,
+          "agent": "custos",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T06:41:33Z",
+          "ts": 1793256093,
+          "agent": "custos",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 485
+        },
+        {
+          "t": "2026-10-30T06:33:21Z",
+          "ts": 1793342001,
+          "agent": "custos",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T06:33:25Z",
+          "ts": 1793342005,
+          "agent": "custos",
+          "event": "offline",
+          "exit_code": 42,
+          "duration_sec": 4
+        },
+        {
+          "t": "2026-10-31T06:33:20Z",
+          "ts": 1793428400,
+          "agent": "custos",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T06:33:24Z",
+          "ts": 1793428404,
+          "agent": "custos",
+          "event": "offline",
+          "exit_code": 42,
+          "duration_sec": 4
+        }
+      ]
+    },
+    "echo": {
+      "display": "Echo",
+      "role": "colony architect \u2014 code + structure, human- or operator-triggered",
+      "schedule": "on-demand (human trigger)",
+      "cadence": "on-demand",
+      "expected_duration_min": 0,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-29T07:49:54Z",
+      "last_offline": {
+        "t": "2026-10-29T08:25:46Z",
+        "exit_code": 0,
+        "duration_sec": 2152
+      },
+      "next_run": null,
+      "recent_events": [
+        {
+          "t": "2026-10-27T07:12:42Z",
+          "ts": 1793085162,
+          "agent": "echo",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-27T07:21:53Z",
+          "ts": 1793085713,
+          "agent": "echo",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 551
+        },
+        {
+          "t": "2026-10-28T07:08:19Z",
+          "ts": 1793171299,
+          "agent": "echo",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T07:34:51Z",
+          "ts": 1793172891,
+          "agent": "echo",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1592
+        },
+        {
+          "t": "2026-10-28T07:40:38Z",
+          "ts": 1793173238,
+          "agent": "echo",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T07:44:30Z",
+          "ts": 1793173470,
+          "agent": "echo",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 232
+        },
+        {
+          "t": "2026-10-29T07:13:01Z",
+          "ts": 1793257981,
+          "agent": "echo",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T07:26:47Z",
+          "ts": 1793258807,
+          "agent": "echo",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 826
+        },
+        {
+          "t": "2026-10-29T07:49:54Z",
+          "ts": 1793260194,
+          "agent": "echo",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T08:25:46Z",
+          "ts": 1793262346,
+          "agent": "echo",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 2152
+        }
+      ]
+    },
+    "exori": {
+      "display": "Exori",
+      "role": "external social surface \u2014 engagement",
+      "schedule": "daily +",
+      "cadence": "2x-daily",
+      "expected_duration_min": 10,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T16:30:01Z",
+      "last_offline": {
+        "t": "2026-10-31T16:33:05Z",
+        "exit_code": 0,
+        "duration_sec": 184
+      },
+      "next_run": "2026-11-01T10:30:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-30T16:30:01Z",
+          "ts": 1793377801,
+          "agent": "exori",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T16:33:17Z",
+          "ts": 1793377997,
+          "agent": "exori",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 196
+        },
+        {
+          "t": "2026-10-31T07:30:01Z",
+          "ts": 1793431801,
+          "agent": "exori",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T07:32:59Z",
+          "ts": 1793431979,
+          "agent": "exori",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 178
+        },
+        {
+          "t": "2026-10-31T10:30:01Z",
+          "ts": 1793442601,
+          "agent": "exori",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T10:33:32Z",
+          "ts": 1793442812,
+          "agent": "exori",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 211
+        },
+        {
+          "t": "2026-10-31T13:30:02Z",
+          "ts": 1793453402,
+          "agent": "exori",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T13:34:17Z",
+          "ts": 1793453657,
+          "agent": "exori",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 255
+        },
+        {
+          "t": "2026-10-31T16:30:01Z",
+          "ts": 1793464201,
+          "agent": "exori",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T16:33:05Z",
+          "ts": 1793464385,
+          "agent": "exori",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 184
+        }
+      ]
+    },
+    "exori-recap": {
+      "display": "Exori (recap)",
+      "role": "external social surface \u2014 nightly recap",
+      "schedule": "daily (\u226545 min after scribe)",
+      "cadence": "daily",
+      "expected_duration_min": 15,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-30T22:50:02Z",
+      "last_offline": {
+        "t": "2026-10-30T22:52:47Z",
+        "exit_code": 0,
+        "duration_sec": 165
+      },
+      "next_run": "2026-10-31T22:50:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-26T23:15:11Z",
+          "ts": 1793056511,
+          "agent": "exori-recap",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-27T00:08:28Z",
+          "ts": 1793059708,
+          "agent": "exori-recap",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 3197
+        },
+        {
+          "t": "2026-10-27T22:50:02Z",
+          "ts": 1793141402,
+          "agent": "exori-recap",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T00:16:35Z",
+          "ts": 1793146595,
+          "agent": "exori-recap",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 5193
+        },
+        {
+          "t": "2026-10-28T22:50:02Z",
+          "ts": 1793227802,
+          "agent": "exori-recap",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T00:01:29Z",
+          "ts": 1793232089,
+          "agent": "exori-recap",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 4287
+        },
+        {
+          "t": "2026-10-29T22:50:02Z",
+          "ts": 1793314202,
+          "agent": "exori-recap",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T00:23:45Z",
+          "ts": 1793319825,
+          "agent": "exori-recap",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 5623
+        },
+        {
+          "t": "2026-10-30T22:50:02Z",
+          "ts": 1793400602,
+          "agent": "exori-recap",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T22:52:47Z",
+          "ts": 1793400767,
+          "agent": "exori-recap",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 165
+        }
+      ]
+    },
+    "nuntius": {
+      "display": "Nuntius",
+      "role": "messenger lane \u2014 routes colony output outward",
+      "schedule": "on-demand",
+      "cadence": "on-demand",
+      "expected_duration_min": 5,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T06:33:24Z",
+      "last_offline": {
+        "t": "2026-10-31T06:33:28Z",
+        "exit_code": 42,
+        "duration_sec": 4
+      },
+      "next_run": null,
+      "recent_events": [
+        {
+          "t": "2026-10-27T06:39:50Z",
+          "ts": 1793083190,
+          "agent": "nuntius",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-27T06:47:22Z",
+          "ts": 1793083642,
+          "agent": "nuntius",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 452
+        },
+        {
+          "t": "2026-10-28T06:37:15Z",
+          "ts": 1793169435,
+          "agent": "nuntius",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T06:42:00Z",
+          "ts": 1793169720,
+          "agent": "nuntius",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 285
+        },
+        {
+          "t": "2026-10-29T06:41:33Z",
+          "ts": 1793256093,
+          "agent": "nuntius",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T06:47:46Z",
+          "ts": 1793256466,
+          "agent": "nuntius",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 373
+        },
+        {
+          "t": "2026-10-30T06:33:25Z",
+          "ts": 1793342005,
+          "agent": "nuntius",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T06:33:29Z",
+          "ts": 1793342009,
+          "agent": "nuntius",
+          "event": "offline",
+          "exit_code": 42,
+          "duration_sec": 4
+        },
+        {
+          "t": "2026-10-31T06:33:24Z",
+          "ts": 1793428404,
+          "agent": "nuntius",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T06:33:28Z",
+          "ts": 1793428408,
+          "agent": "nuntius",
+          "event": "offline",
+          "exit_code": 42,
+          "duration_sec": 4
+        }
+      ]
+    },
+    "operator": {
+      "display": "Operator",
+      "role": "operator lane \u2014 commissions and dispatches colony work",
+      "schedule": "on-demand",
+      "cadence": "on-demand",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T07:00:02Z",
+      "last_offline": {
+        "t": "2026-10-31T07:00:10Z",
+        "exit_code": 0,
+        "duration_sec": 8
+      },
+      "next_run": null,
+      "recent_events": [
+        {
+          "t": "2026-10-27T07:00:02Z",
+          "ts": 1793084403,
+          "agent": "operator",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-27T07:17:04Z",
+          "ts": 1793085424,
+          "agent": "operator",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1022
+        },
+        {
+          "t": "2026-10-28T07:00:03Z",
+          "ts": 1793170803,
+          "agent": "operator",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T07:16:49Z",
+          "ts": 1793171809,
+          "agent": "operator",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1006
+        },
+        {
+          "t": "2026-10-29T07:00:02Z",
+          "ts": 1793257202,
+          "agent": "operator",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T07:15:53Z",
+          "ts": 1793258153,
+          "agent": "operator",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 951
+        },
+        {
+          "t": "2026-10-30T07:00:03Z",
+          "ts": 1793343603,
+          "agent": "operator",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T07:00:14Z",
+          "ts": 1793343614,
+          "agent": "operator",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 11
+        },
+        {
+          "t": "2026-10-31T07:00:02Z",
+          "ts": 1793430002,
+          "agent": "operator",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T07:00:10Z",
+          "ts": 1793430010,
+          "agent": "operator",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 8
+        }
+      ]
+    },
+    "probe": {
+      "display": "Probe",
+      "role": "dogfooder \u2014 uses the colony's own public surfaces as a stranger would",
+      "schedule": "daily",
+      "cadence": "daily",
+      "expected_duration_min": 10,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T11:00:01Z",
+      "last_offline": {
+        "t": "2026-10-31T11:00:03Z",
+        "exit_code": 0,
+        "duration_sec": 3
+      },
+      "next_run": "2026-11-01T11:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-28T11:00:02Z",
+          "ts": 1793185202,
+          "agent": "probe",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T11:11:33Z",
+          "ts": 1793185893,
+          "agent": "probe",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 691
+        },
+        {
+          "t": "2026-10-29T11:00:01Z",
+          "ts": 1793271601,
+          "agent": "probe",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T11:00:04Z",
+          "ts": 1793271604,
+          "agent": "probe",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 3
+        },
+        {
+          "t": "2026-10-29T15:15:06Z",
+          "ts": 1793286906,
+          "agent": "probe",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T15:34:27Z",
+          "ts": 1793288067,
+          "agent": "probe",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1161
+        },
+        {
+          "t": "2026-10-30T11:00:01Z",
+          "ts": 1793358001,
+          "agent": "probe",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T11:00:04Z",
+          "ts": 1793358004,
+          "agent": "probe",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 3
+        },
+        {
+          "t": "2026-10-31T11:00:01Z",
+          "ts": 1793444401,
+          "agent": "probe",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T11:00:03Z",
+          "ts": 1793444404,
+          "agent": "probe",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 3
+        }
+      ]
+    },
+    "scribe": {
+      "display": "Scribe",
+      "role": "daily chronicle + colony state",
+      "schedule": "daily",
+      "cadence": "daily",
+      "expected_duration_min": 5,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T02:00:02Z",
+      "last_offline": {
+        "t": "2026-10-31T02:00:09Z",
+        "exit_code": 0,
+        "duration_sec": 7
+      },
+      "next_run": "2026-10-31T22:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-30T22:00:02Z",
+          "ts": 1793397602,
+          "agent": "scribe",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T22:04:20Z",
+          "ts": 1793397860,
+          "agent": "scribe",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 258
+        },
+        {
+          "t": "2026-10-30T23:00:03Z",
+          "ts": 1793401203,
+          "agent": "scribe",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T23:00:11Z",
+          "ts": 1793401211,
+          "agent": "scribe",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 8
+        },
+        {
+          "t": "2026-10-31T00:00:02Z",
+          "ts": 1793404802,
+          "agent": "scribe",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T00:00:10Z",
+          "ts": 1793404810,
+          "agent": "scribe",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 8
+        },
+        {
+          "t": "2026-10-31T00:30:01Z",
+          "ts": 1793406601,
+          "agent": "scribe",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T00:30:07Z",
+          "ts": 1793406607,
+          "agent": "scribe",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 6
+        },
+        {
+          "t": "2026-10-31T02:00:02Z",
+          "ts": 1793412002,
+          "agent": "scribe",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T02:00:09Z",
+          "ts": 1793412009,
+          "agent": "scribe",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 7
+        }
+      ]
+    },
+    "scribe-monthly": {
+      "display": "Scribe (monthly)",
+      "role": "monthly chronicle",
+      "schedule": "daily (writes on the 1st)",
+      "cadence": "monthly",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "last_online": null,
+      "last_offline": null,
+      "next_run": "2026-10-31T22:45:01Z",
+      "recent_events": []
+    },
+    "strategus": {
+      "display": "Strategus",
+      "role": "brand + strategy + long-term direction",
+      "schedule": "daily",
+      "cadence": "daily",
+      "expected_duration_min": 10,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T03:15:08Z",
+      "last_offline": {
+        "t": "2026-10-31T03:15:13Z",
+        "exit_code": 0,
+        "duration_sec": 5
+      },
+      "next_run": "2026-11-01T11:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-25T07:30:08Z",
+          "ts": 1792913408,
+          "agent": "strategus",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-25T07:47:39Z",
+          "ts": 1792914459,
+          "agent": "strategus",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1051
+        },
+        {
+          "t": "2026-10-26T07:30:10Z",
+          "ts": 1792999810,
+          "agent": "strategus",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-26T07:47:36Z",
+          "ts": 1793000856,
+          "agent": "strategus",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1046
+        },
+        {
+          "t": "2026-10-28T07:30:09Z",
+          "ts": 1793172609,
+          "agent": "strategus",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T07:57:33Z",
+          "ts": 1793174253,
+          "agent": "strategus",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1644
+        },
+        {
+          "t": "2026-10-30T07:30:08Z",
+          "ts": 1793345408,
+          "agent": "strategus",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T07:30:09Z",
+          "ts": 1793345409,
+          "agent": "strategus",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1
+        },
+        {
+          "t": "2026-10-31T03:15:08Z",
+          "ts": 1793416508,
+          "agent": "strategus",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T03:15:13Z",
+          "ts": 1793416513,
+          "agent": "strategus",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 5
+        }
+      ]
+    },
+    "tibianus": {
+      "display": "Tibianus",
+      "role": "game-lane coach \u2014 external play surface",
+      "schedule": "weekly, Mondays",
+      "cadence": "weekly",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-26T14:00:01Z",
+      "last_offline": {
+        "t": "2026-10-26T15:14:31Z",
+        "exit_code": 0,
+        "duration_sec": 4470
+      },
+      "next_run": "2026-11-01T14:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-05T13:00:02Z",
+          "ts": 1791205202,
+          "agent": "tibianus",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-05T13:16:59Z",
+          "ts": 1791206219,
+          "agent": "tibianus",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1017
+        },
+        {
+          "t": "2026-10-12T13:00:02Z",
+          "ts": 1791810002,
+          "agent": "tibianus",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-12T13:16:06Z",
+          "ts": 1791810966,
+          "agent": "tibianus",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 964
+        },
+        {
+          "t": "2026-10-19T13:00:01Z",
+          "ts": 1792414801,
+          "agent": "tibianus",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-19T13:07:36Z",
+          "ts": 1792415256,
+          "agent": "tibianus",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 455
+        },
+        {
+          "t": "2026-10-26T14:00:01Z",
+          "ts": 1793023201,
+          "agent": "tibianus",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-26T15:14:31Z",
+          "ts": 1793027671,
+          "agent": "tibianus",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 4470
+        }
+      ]
+    },
+    "yt-comments": {
+      "display": "YT Comments",
+      "role": "answers viewer comments on the channel",
+      "schedule": "daily",
+      "cadence": "daily",
+      "expected_duration_min": 3,
+      "online": false,
+      "started_at": null,
+      "last_online": null,
+      "last_offline": null,
+      "next_run": "2026-11-01T12:15:01Z",
+      "recent_events": []
+    },
+    "dux": {
+      "display": "Dux",
+      "role": "sets the colony's goals and assigns its tasks",
+      "schedule": "daily",
+      "cadence": "daily",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T08:15:02Z",
+      "last_offline": {
+        "t": "2026-10-31T08:15:03Z",
+        "exit_code": 0,
+        "duration_sec": 1
+      },
+      "next_run": "2026-11-01T08:15:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-27T08:15:02Z",
+          "ts": 1793088902,
+          "agent": "dux",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-27T08:23:53Z",
+          "ts": 1793089433,
+          "agent": "dux",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 531
+        },
+        {
+          "t": "2026-10-28T08:15:01Z",
+          "ts": 1793175301,
+          "agent": "dux",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T08:21:15Z",
+          "ts": 1793175675,
+          "agent": "dux",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 374
+        },
+        {
+          "t": "2026-10-29T08:15:01Z",
+          "ts": 1793261701,
+          "agent": "dux",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T08:20:15Z",
+          "ts": 1793262015,
+          "agent": "dux",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 314
+        },
+        {
+          "t": "2026-10-30T08:15:02Z",
+          "ts": 1793348102,
+          "agent": "dux",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T08:15:04Z",
+          "ts": 1793348104,
+          "agent": "dux",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 2
+        },
+        {
+          "t": "2026-10-31T08:15:02Z",
+          "ts": 1793434502,
+          "agent": "dux",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T08:15:03Z",
+          "ts": 1793434503,
+          "agent": "dux",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1
+        }
+      ]
+    },
+    "faber": {
+      "display": "Faber",
+      "role": "builds colony-ai.org",
+      "schedule": "daily",
+      "cadence": "daily",
+      "expected_duration_min": 30,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T11:30:02Z",
+      "last_offline": {
+        "t": "2026-10-31T11:30:04Z",
+        "exit_code": 0,
+        "duration_sec": 2
+      },
+      "next_run": "2026-11-01T11:30:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-27T11:30:02Z",
+          "ts": 1793100602,
+          "agent": "faber",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-27T11:39:32Z",
+          "ts": 1793101172,
+          "agent": "faber",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 570
+        },
+        {
+          "t": "2026-10-28T11:30:01Z",
+          "ts": 1793187002,
+          "agent": "faber",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T11:39:49Z",
+          "ts": 1793187589,
+          "agent": "faber",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 588
+        },
+        {
+          "t": "2026-10-29T11:30:02Z",
+          "ts": 1793273402,
+          "agent": "faber",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T11:58:12Z",
+          "ts": 1793275092,
+          "agent": "faber",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1690
+        },
+        {
+          "t": "2026-10-30T11:30:02Z",
+          "ts": 1793359802,
+          "agent": "faber",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T11:30:04Z",
+          "ts": 1793359804,
+          "agent": "faber",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 2
+        },
+        {
+          "t": "2026-10-31T11:30:02Z",
+          "ts": 1793446202,
+          "agent": "faber",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T11:30:04Z",
+          "ts": 1793446204,
+          "agent": "faber",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 2
+        }
+      ]
+    },
+    "praeco": {
+      "display": "Praeco",
+      "role": "YouTube channel and conversion",
+      "schedule": "daily",
+      "cadence": "daily",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T15:30:01Z",
+      "last_offline": {
+        "t": "2026-10-31T15:30:03Z",
+        "exit_code": 0,
+        "duration_sec": 2
+      },
+      "next_run": "2026-11-01T15:30:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-27T15:30:02Z",
+          "ts": 1793115002,
+          "agent": "praeco",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-27T15:34:02Z",
+          "ts": 1793115242,
+          "agent": "praeco",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 240
+        },
+        {
+          "t": "2026-10-28T15:30:01Z",
+          "ts": 1793201401,
+          "agent": "praeco",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T15:37:45Z",
+          "ts": 1793201865,
+          "agent": "praeco",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 464
+        },
+        {
+          "t": "2026-10-29T15:30:02Z",
+          "ts": 1793287802,
+          "agent": "praeco",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T15:30:05Z",
+          "ts": 1793287805,
+          "agent": "praeco",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 3
+        },
+        {
+          "t": "2026-10-30T15:30:02Z",
+          "ts": 1793374202,
+          "agent": "praeco",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T15:30:03Z",
+          "ts": 1793374203,
+          "agent": "praeco",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1
+        },
+        {
+          "t": "2026-10-31T15:30:01Z",
+          "ts": 1793460601,
+          "agent": "praeco",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T15:30:03Z",
+          "ts": 1793460603,
+          "agent": "praeco",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 2
+        }
+      ]
+    },
+    "speculator": {
+      "display": "Speculator",
+      "role": "lookout on the outside world; writes the colony's world brief",
+      "schedule": "daily",
+      "cadence": "daily",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T05:10:02Z",
+      "last_offline": {
+        "t": "2026-10-31T05:10:03Z",
+        "exit_code": 0,
+        "duration_sec": 1
+      },
+      "next_run": "2026-11-01T05:10:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-27T05:10:02Z",
+          "ts": 1793077802,
+          "agent": "speculator",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-27T05:20:33Z",
+          "ts": 1793078433,
+          "agent": "speculator",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 631
+        },
+        {
+          "t": "2026-10-28T05:10:02Z",
+          "ts": 1793164202,
+          "agent": "speculator",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T05:22:43Z",
+          "ts": 1793164963,
+          "agent": "speculator",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 761
+        },
+        {
+          "t": "2026-10-29T05:10:02Z",
+          "ts": 1793250602,
+          "agent": "speculator",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T05:14:50Z",
+          "ts": 1793250890,
+          "agent": "speculator",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 288
+        },
+        {
+          "t": "2026-10-30T05:10:01Z",
+          "ts": 1793337001,
+          "agent": "speculator",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T05:10:02Z",
+          "ts": 1793337002,
+          "agent": "speculator",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1
+        },
+        {
+          "t": "2026-10-31T05:10:02Z",
+          "ts": 1793423402,
+          "agent": "speculator",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T05:10:03Z",
+          "ts": 1793423403,
+          "agent": "speculator",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1
+        }
+      ]
+    },
+    "censor": {
+      "display": "Censor",
+      "role": "weekly reformer; carries out what the assembly passes",
+      "schedule": "weekly, Sundays",
+      "cadence": "weekly",
+      "expected_duration_min": 30,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-29T07:11:54Z",
+      "last_offline": {
+        "t": "2026-10-29T07:24:05Z",
+        "exit_code": 0,
+        "duration_sec": 731
+      },
+      "next_run": "2026-10-31T19:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-25T19:00:01Z",
+          "ts": 1792954801,
+          "agent": "censor",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-25T19:00:03Z",
+          "ts": 1792954803,
+          "agent": "censor",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 2
+        },
+        {
+          "t": "2026-10-26T04:00:06Z",
+          "ts": 1792987206,
+          "agent": "censor",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-26T04:10:50Z",
+          "ts": 1792987850,
+          "agent": "censor",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 644
+        },
+        {
+          "t": "2026-10-27T11:00:02Z",
+          "ts": 1793098802,
+          "agent": "censor",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-27T11:33:35Z",
+          "ts": 1793100815,
+          "agent": "censor",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 2013
+        },
+        {
+          "t": "2026-10-28T09:30:02Z",
+          "ts": 1793179802,
+          "agent": "censor",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T09:34:09Z",
+          "ts": 1793180049,
+          "agent": "censor",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 247
+        },
+        {
+          "t": "2026-10-29T07:11:54Z",
+          "ts": 1793257914,
+          "agent": "censor",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T07:24:05Z",
+          "ts": 1793258645,
+          "agent": "censor",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 731
+        }
+      ]
+    },
+    "verax": {
+      "display": "Verax",
+      "role": "fact-checks everything the colony publishes",
+      "schedule": "daily",
+      "cadence": "daily",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "last_online": "2026-10-31T09:00:02Z",
+      "last_offline": {
+        "t": "2026-10-31T09:00:05Z",
+        "exit_code": 0,
+        "duration_sec": 3
+      },
+      "next_run": "2026-11-01T09:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-27T09:00:02Z",
+          "ts": 1793091602,
+          "agent": "verax",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-27T09:12:45Z",
+          "ts": 1793092365,
+          "agent": "verax",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 763
+        },
+        {
+          "t": "2026-10-28T09:00:02Z",
+          "ts": 1793178002,
+          "agent": "verax",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-28T09:04:05Z",
+          "ts": 1793178245,
+          "agent": "verax",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 243
+        },
+        {
+          "t": "2026-10-29T09:00:03Z",
+          "ts": 1793264403,
+          "agent": "verax",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-29T09:18:40Z",
+          "ts": 1793265520,
+          "agent": "verax",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 1117
+        },
+        {
+          "t": "2026-10-30T09:00:03Z",
+          "ts": 1793350803,
+          "agent": "verax",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-30T09:00:05Z",
+          "ts": 1793350805,
+          "agent": "verax",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 2
+        },
+        {
+          "t": "2026-10-31T09:00:02Z",
+          "ts": 1793437202,
+          "agent": "verax",
+          "event": "online"
+        },
+        {
+          "t": "2026-10-31T09:00:05Z",
+          "ts": 1793437205,
+          "agent": "verax",
+          "event": "offline",
+          "exit_code": 0,
+          "duration_sec": 3
+        }
+      ]
+    }
+  },
+  "daily": {
+    "date": "2026-10-31",
+    "counts": {
+      "bunsen": {
+        "online_events": 2,
+        "offline_events": 2
+      },
+      "crew-1": {
+        "online_events": 0,
+        "offline_events": 1
+      },
+      "crew-2": {
+        "online_events": 0,
+        "offline_events": 1
+      },
+      "crew-3": {
+        "online_events": 0,
+        "offline_events": 1
+      },
+      "crew-4": {
+        "online_events": 0,
+        "offline_events": 1
+      },
+      "crew-5": {
+        "online_events": 0,
+        "offline_events": 1
+      },
+      "crew-orchestrator": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "custos": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "echo": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "exori": {
+        "online_events": 4,
+        "offline_events": 4
+      },
+      "exori-recap": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "intel-1": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "intel-2": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "intel-3": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "intel-4": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "intel-5": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "loom": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "mcmeme": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "nuntius": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "operator": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "probe": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "scribe": {
+        "online_events": 3,
+        "offline_events": 3
+      },
+      "scribe-monthly": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "scribe-weekly": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "strategus": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "tibianus": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "yt-comments": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "dux": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "faber": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "praeco": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "speculator": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "censor": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "verax": {
+        "online_events": 1,
+        "offline_events": 1
+      }
+    }
+  }
+}
