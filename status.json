@@ -1,0 +1,1957 @@
+{
+  "generated_at": "2026-10-24T17:40:01.911095Z",
+  "agents": {
+    "bunsen": {
+      "display": "Bunsen",
+      "role": "lab \u2014 model behaviour experiments",
+      "model": "opus",
+      "schedule": "daily 01:30 local",
+      "cadence": "daily",
+      "expected_duration_min": 15,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-24T01:30:07Z",
+      "last_offline": {
+        "t": "2026-10-24T06:57:07Z",
+        "exit_code": 0,
+        "duration_sec": 19620
+      },
+      "next_run": "2026-10-24T23:30:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-20T01:30:07Z",
+          "ts": 1792459807,
+          "agent": "bunsen",
+          "event": "online",
+          "session": "2026-10-20T013001Z",
+          "pid": 944889
+        },
+        {
+          "t": "2026-10-20T06:05:44Z",
+          "ts": 1792476344,
+          "agent": "bunsen",
+          "event": "offline",
+          "session": "2026-10-20T013001Z",
+          "exit_code": 0,
+          "duration_sec": 16537
+        },
+        {
+          "t": "2026-10-21T01:30:06Z",
+          "ts": 1792546206,
+          "agent": "bunsen",
+          "event": "online",
+          "session": "2026-10-21T013001Z",
+          "pid": 1652132
+        },
+        {
+          "t": "2026-10-21T07:55:17Z",
+          "ts": 1792569317,
+          "agent": "bunsen",
+          "event": "offline",
+          "session": "2026-10-21T013001Z",
+          "exit_code": 0,
+          "duration_sec": 23111
+        },
+        {
+          "t": "2026-10-22T01:30:07Z",
+          "ts": 1792632607,
+          "agent": "bunsen",
+          "event": "online",
+          "session": "2026-10-22T013001Z",
+          "pid": 2425221
+        },
+        {
+          "t": "2026-10-22T05:51:48Z",
+          "ts": 1792648308,
+          "agent": "bunsen",
+          "event": "offline",
+          "session": "2026-10-22T013001Z",
+          "exit_code": 0,
+          "duration_sec": 15701
+        },
+        {
+          "t": "2026-10-23T01:30:07Z",
+          "ts": 1792719007,
+          "agent": "bunsen",
+          "event": "online",
+          "session": "2026-10-23T013001Z",
+          "pid": 3361840
+        },
+        {
+          "t": "2026-10-23T08:09:06Z",
+          "ts": 1792742946,
+          "agent": "bunsen",
+          "event": "offline",
+          "session": "2026-10-23T013001Z",
+          "exit_code": 0,
+          "duration_sec": 23939
+        },
+        {
+          "t": "2026-10-24T01:30:07Z",
+          "ts": 1792805407,
+          "agent": "bunsen",
+          "event": "online",
+          "session": "2026-10-24T013001Z",
+          "pid": 952
+        },
+        {
+          "t": "2026-10-24T06:57:07Z",
+          "ts": 1792825027,
+          "agent": "bunsen",
+          "event": "offline",
+          "session": "2026-10-24T013001Z",
+          "exit_code": 0,
+          "duration_sec": 19620
+        }
+      ]
+    },
+    "custos": {
+      "display": "Custos",
+      "role": "external-surface worker \u2014 moderation + upkeep",
+      "model": "",
+      "schedule": "daily 07:30 local",
+      "cadence": "daily",
+      "expected_duration_min": 15,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-24T05:32:54Z",
+      "last_offline": {
+        "t": "2026-10-24T05:44:41Z",
+        "exit_code": 0,
+        "duration_sec": 707
+      },
+      "next_run": "2026-10-25T06:30:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-20T05:32:55Z",
+          "ts": 1792474375,
+          "agent": "custos",
+          "event": "online",
+          "session": "20261020T053255Z",
+          "pid": 1071764
+        },
+        {
+          "t": "2026-10-20T05:37:22Z",
+          "ts": 1792474642,
+          "agent": "custos",
+          "event": "offline",
+          "session": "20261020T053255Z",
+          "exit_code": 0,
+          "duration_sec": 267
+        },
+        {
+          "t": "2026-10-21T05:32:38Z",
+          "ts": 1792560758,
+          "agent": "custos",
+          "event": "online",
+          "session": "20261021T053238Z",
+          "pid": 1772313
+        },
+        {
+          "t": "2026-10-21T05:38:16Z",
+          "ts": 1792561096,
+          "agent": "custos",
+          "event": "offline",
+          "session": "20261021T053238Z",
+          "exit_code": 0,
+          "duration_sec": 338
+        },
+        {
+          "t": "2026-10-22T05:32:55Z",
+          "ts": 1792647175,
+          "agent": "custos",
+          "event": "online",
+          "session": "20261022T053255Z",
+          "pid": 2542277
+        },
+        {
+          "t": "2026-10-22T05:40:36Z",
+          "ts": 1792647636,
+          "agent": "custos",
+          "event": "offline",
+          "session": "20261022T053255Z",
+          "exit_code": 0,
+          "duration_sec": 461
+        },
+        {
+          "t": "2026-10-23T05:32:48Z",
+          "ts": 1792733568,
+          "agent": "custos",
+          "event": "online",
+          "session": "20261023T053248Z",
+          "pid": 3496822
+        },
+        {
+          "t": "2026-10-23T05:39:59Z",
+          "ts": 1792733999,
+          "agent": "custos",
+          "event": "offline",
+          "session": "20261023T053248Z",
+          "exit_code": 0,
+          "duration_sec": 431
+        },
+        {
+          "t": "2026-10-24T05:32:54Z",
+          "ts": 1792819974,
+          "agent": "custos",
+          "event": "online",
+          "session": "20261024T053254Z",
+          "pid": 127368
+        },
+        {
+          "t": "2026-10-24T05:44:41Z",
+          "ts": 1792820681,
+          "agent": "custos",
+          "event": "offline",
+          "session": "20261024T053254Z",
+          "exit_code": 0,
+          "duration_sec": 707
+        }
+      ]
+    },
+    "echo": {
+      "display": "Echo",
+      "role": "colony architect \u2014 code + structure, human- or operator-triggered",
+      "model": "opus",
+      "schedule": "on-demand (human trigger)",
+      "cadence": "on-demand",
+      "expected_duration_min": 0,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-24T06:14:46Z",
+      "last_offline": {
+        "t": "2026-10-24T06:22:01Z",
+        "exit_code": 0,
+        "duration_sec": 435
+      },
+      "next_run": null,
+      "recent_events": [
+        {
+          "t": "2026-10-22T13:49:48Z",
+          "ts": 1792676988,
+          "agent": "echo",
+          "event": "online",
+          "session": "2026-10-22T134948Z",
+          "pid": 2979727
+        },
+        {
+          "t": "2026-10-22T14:00:58Z",
+          "ts": 1792677658,
+          "agent": "echo",
+          "event": "offline",
+          "session": "2026-10-22T134948Z",
+          "exit_code": 0,
+          "duration_sec": 670
+        },
+        {
+          "t": "2026-10-23T06:09:02Z",
+          "ts": 1792735742,
+          "agent": "echo",
+          "event": "online",
+          "session": "2026-10-23T060902Z",
+          "pid": 3520868
+        },
+        {
+          "t": "2026-10-23T06:26:30Z",
+          "ts": 1792736790,
+          "agent": "echo",
+          "event": "offline",
+          "session": "2026-10-23T060902Z",
+          "exit_code": 0,
+          "duration_sec": 1048
+        },
+        {
+          "t": "2026-10-23T06:42:37Z",
+          "ts": 1792737757,
+          "agent": "echo",
+          "event": "online",
+          "session": "2026-10-23T064237Z",
+          "pid": 3547618
+        },
+        {
+          "t": "2026-10-23T06:49:42Z",
+          "ts": 1792738182,
+          "agent": "echo",
+          "event": "offline",
+          "session": "2026-10-23T064237Z",
+          "exit_code": 0,
+          "duration_sec": 425
+        },
+        {
+          "t": "2026-10-23T06:50:07Z",
+          "ts": 1792738207,
+          "agent": "echo",
+          "event": "online",
+          "session": "2026-10-23T065007Z",
+          "pid": 3554860
+        },
+        {
+          "t": "2026-10-23T07:17:43Z",
+          "ts": 1792739863,
+          "agent": "echo",
+          "event": "offline",
+          "session": "2026-10-23T065007Z",
+          "exit_code": 0,
+          "duration_sec": 1656
+        },
+        {
+          "t": "2026-10-24T06:14:46Z",
+          "ts": 1792822486,
+          "agent": "echo",
+          "event": "online",
+          "session": "2026-10-24T061446Z",
+          "pid": 154735
+        },
+        {
+          "t": "2026-10-24T06:22:01Z",
+          "ts": 1792822921,
+          "agent": "echo",
+          "event": "offline",
+          "session": "2026-10-24T061446Z",
+          "exit_code": 0,
+          "duration_sec": 435
+        }
+      ]
+    },
+    "exori": {
+      "display": "Exori",
+      "role": "external social surface \u2014 engagement",
+      "model": "opus",
+      "schedule": "daily 11:30 + 17:30 local",
+      "cadence": "2x-daily",
+      "expected_duration_min": 10,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-24T15:30:01Z",
+      "last_offline": {
+        "t": "2026-10-24T15:53:00Z",
+        "exit_code": 0,
+        "duration_sec": 1379
+      },
+      "next_run": "2026-10-25T10:30:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-23T18:55:32Z",
+          "ts": 1792781732,
+          "agent": "exori",
+          "event": "online",
+          "session": "20261023T185532Z",
+          "pid": 3958617
+        },
+        {
+          "t": "2026-10-23T19:06:52Z",
+          "ts": 1792782412,
+          "agent": "exori",
+          "event": "offline",
+          "session": "20261023T185532Z",
+          "exit_code": 0,
+          "duration_sec": 680
+        },
+        {
+          "t": "2026-10-24T06:30:01Z",
+          "ts": 1792823401,
+          "agent": "exori",
+          "event": "online",
+          "session": "20261024T063001Z",
+          "pid": 164047
+        },
+        {
+          "t": "2026-10-24T06:46:24Z",
+          "ts": 1792824384,
+          "agent": "exori",
+          "event": "offline",
+          "session": "20261024T063001Z",
+          "exit_code": 0,
+          "duration_sec": 983
+        },
+        {
+          "t": "2026-10-24T09:30:01Z",
+          "ts": 1792834201,
+          "agent": "exori",
+          "event": "online",
+          "session": "20261024T093001Z",
+          "pid": 254378
+        },
+        {
+          "t": "2026-10-24T09:45:29Z",
+          "ts": 1792835129,
+          "agent": "exori",
+          "event": "offline",
+          "session": "20261024T093001Z",
+          "exit_code": 0,
+          "duration_sec": 928
+        },
+        {
+          "t": "2026-10-24T12:30:01Z",
+          "ts": 1792845001,
+          "agent": "exori",
+          "event": "online",
+          "session": "20261024T123001Z",
+          "pid": 346238
+        },
+        {
+          "t": "2026-10-24T12:53:41Z",
+          "ts": 1792846421,
+          "agent": "exori",
+          "event": "offline",
+          "session": "20261024T123001Z",
+          "exit_code": 0,
+          "duration_sec": 1420
+        },
+        {
+          "t": "2026-10-24T15:30:01Z",
+          "ts": 1792855801,
+          "agent": "exori",
+          "event": "online",
+          "session": "20261024T153001Z",
+          "pid": 432993
+        },
+        {
+          "t": "2026-10-24T15:53:00Z",
+          "ts": 1792857180,
+          "agent": "exori",
+          "event": "offline",
+          "session": "20261024T153001Z",
+          "exit_code": 0,
+          "duration_sec": 1379
+        }
+      ]
+    },
+    "exori-recap": {
+      "display": "Exori (recap)",
+      "role": "external social surface \u2014 nightly recap",
+      "model": "opus",
+      "schedule": "daily 23:50 local (\u226545 min after scribe)",
+      "cadence": "daily",
+      "expected_duration_min": 15,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-23T21:50:04Z",
+      "last_offline": {
+        "t": "2026-10-23T22:17:58Z",
+        "exit_code": 0,
+        "duration_sec": 1674
+      },
+      "next_run": "2026-10-24T21:50:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-19T22:15:13Z",
+          "ts": 1792448113,
+          "agent": "exori-recap",
+          "event": "online",
+          "session": "20261019T221513Z",
+          "pid": 851220
+        },
+        {
+          "t": "2026-10-19T22:24:04Z",
+          "ts": 1792448644,
+          "agent": "exori-recap",
+          "event": "offline",
+          "session": "20261019T221513Z",
+          "exit_code": 0,
+          "duration_sec": 531
+        },
+        {
+          "t": "2026-10-20T21:50:02Z",
+          "ts": 1792533002,
+          "agent": "exori-recap",
+          "event": "online",
+          "session": "20261020T215002Z",
+          "pid": 1540613
+        },
+        {
+          "t": "2026-10-20T22:03:01Z",
+          "ts": 1792533781,
+          "agent": "exori-recap",
+          "event": "offline",
+          "session": "20261020T215002Z",
+          "exit_code": 0,
+          "duration_sec": 779
+        },
+        {
+          "t": "2026-10-21T21:50:04Z",
+          "ts": 1792619404,
+          "agent": "exori-recap",
+          "event": "online",
+          "session": "20261021T215004Z",
+          "pid": 2287049
+        },
+        {
+          "t": "2026-10-21T22:01:33Z",
+          "ts": 1792620093,
+          "agent": "exori-recap",
+          "event": "offline",
+          "session": "20261021T215004Z",
+          "exit_code": 0,
+          "duration_sec": 689
+        },
+        {
+          "t": "2026-10-22T21:50:03Z",
+          "ts": 1792705803,
+          "agent": "exori-recap",
+          "event": "online",
+          "session": "20261022T215003Z",
+          "pid": 3226386
+        },
+        {
+          "t": "2026-10-22T22:03:07Z",
+          "ts": 1792706587,
+          "agent": "exori-recap",
+          "event": "offline",
+          "session": "20261022T215003Z",
+          "exit_code": 0,
+          "duration_sec": 784
+        },
+        {
+          "t": "2026-10-23T21:50:04Z",
+          "ts": 1792792204,
+          "agent": "exori-recap",
+          "event": "online",
+          "session": "20261023T215004Z",
+          "pid": 4043861
+        },
+        {
+          "t": "2026-10-23T22:17:58Z",
+          "ts": 1792793878,
+          "agent": "exori-recap",
+          "event": "offline",
+          "session": "20261023T215004Z",
+          "exit_code": 0,
+          "duration_sec": 1674
+        }
+      ]
+    },
+    "nuntius": {
+      "display": "Nuntius",
+      "role": "messenger lane \u2014 routes colony output outward",
+      "model": "",
+      "schedule": "on-demand",
+      "cadence": "on-demand",
+      "expected_duration_min": 5,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-24T05:44:41Z",
+      "last_offline": {
+        "t": "2026-10-24T05:48:51Z",
+        "exit_code": 0,
+        "duration_sec": 250
+      },
+      "next_run": null,
+      "recent_events": [
+        {
+          "t": "2026-10-20T05:37:22Z",
+          "ts": 1792474642,
+          "agent": "nuntius",
+          "event": "online",
+          "session": "20261020T053722Z",
+          "pid": 1073779
+        },
+        {
+          "t": "2026-10-20T05:39:48Z",
+          "ts": 1792474788,
+          "agent": "nuntius",
+          "event": "offline",
+          "session": "20261020T053722Z",
+          "exit_code": 0,
+          "duration_sec": 146
+        },
+        {
+          "t": "2026-10-21T05:38:16Z",
+          "ts": 1792561096,
+          "agent": "nuntius",
+          "event": "online",
+          "session": "20261021T053816Z",
+          "pid": 1774962
+        },
+        {
+          "t": "2026-10-21T05:40:50Z",
+          "ts": 1792561250,
+          "agent": "nuntius",
+          "event": "offline",
+          "session": "20261021T053816Z",
+          "exit_code": 0,
+          "duration_sec": 154
+        },
+        {
+          "t": "2026-10-22T05:40:36Z",
+          "ts": 1792647636,
+          "agent": "nuntius",
+          "event": "online",
+          "session": "20261022T054036Z",
+          "pid": 2548417
+        },
+        {
+          "t": "2026-10-22T05:43:38Z",
+          "ts": 1792647818,
+          "agent": "nuntius",
+          "event": "offline",
+          "session": "20261022T054036Z",
+          "exit_code": 0,
+          "duration_sec": 182
+        },
+        {
+          "t": "2026-10-23T05:39:59Z",
+          "ts": 1792733999,
+          "agent": "nuntius",
+          "event": "online",
+          "session": "20261023T053959Z",
+          "pid": 3501368
+        },
+        {
+          "t": "2026-10-23T05:44:39Z",
+          "ts": 1792734279,
+          "agent": "nuntius",
+          "event": "offline",
+          "session": "20261023T053959Z",
+          "exit_code": 0,
+          "duration_sec": 280
+        },
+        {
+          "t": "2026-10-24T05:44:41Z",
+          "ts": 1792820681,
+          "agent": "nuntius",
+          "event": "online",
+          "session": "20261024T054441Z",
+          "pid": 137012
+        },
+        {
+          "t": "2026-10-24T05:48:51Z",
+          "ts": 1792820931,
+          "agent": "nuntius",
+          "event": "offline",
+          "session": "20261024T054441Z",
+          "exit_code": 0,
+          "duration_sec": 250
+        }
+      ]
+    },
+    "operator": {
+      "display": "Operator",
+      "role": "operator lane \u2014 commissions and dispatches colony work",
+      "model": "opus",
+      "schedule": "on-demand",
+      "cadence": "on-demand",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-24T06:00:02Z",
+      "last_offline": {
+        "t": "2026-10-24T06:20:24Z",
+        "exit_code": 0,
+        "duration_sec": 1222
+      },
+      "next_run": null,
+      "recent_events": [
+        {
+          "t": "2026-10-20T06:00:02Z",
+          "ts": 1792476002,
+          "agent": "operator",
+          "event": "online",
+          "session": "2026-10-20T060001Z",
+          "pid": 1083423
+        },
+        {
+          "t": "2026-10-20T06:10:21Z",
+          "ts": 1792476621,
+          "agent": "operator",
+          "event": "offline",
+          "session": "2026-10-20T060001Z",
+          "exit_code": 0,
+          "duration_sec": 619
+        },
+        {
+          "t": "2026-10-21T06:00:02Z",
+          "ts": 1792562402,
+          "agent": "operator",
+          "event": "online",
+          "session": "2026-10-21T060001Z",
+          "pid": 1784282
+        },
+        {
+          "t": "2026-10-21T06:06:39Z",
+          "ts": 1792562799,
+          "agent": "operator",
+          "event": "offline",
+          "session": "2026-10-21T060001Z",
+          "exit_code": 0,
+          "duration_sec": 397
+        },
+        {
+          "t": "2026-10-22T06:00:04Z",
+          "ts": 1792648804,
+          "agent": "operator",
+          "event": "online",
+          "session": "2026-10-22T060003Z",
+          "pid": 2558618
+        },
+        {
+          "t": "2026-10-22T06:07:24Z",
+          "ts": 1792649244,
+          "agent": "operator",
+          "event": "offline",
+          "session": "2026-10-22T060003Z",
+          "exit_code": 0,
+          "duration_sec": 440
+        },
+        {
+          "t": "2026-10-23T06:00:03Z",
+          "ts": 1792735203,
+          "agent": "operator",
+          "event": "online",
+          "session": "2026-10-23T060002Z",
+          "pid": 3511879
+        },
+        {
+          "t": "2026-10-23T06:20:43Z",
+          "ts": 1792736443,
+          "agent": "operator",
+          "event": "offline",
+          "session": "2026-10-23T060002Z",
+          "exit_code": 0,
+          "duration_sec": 1240
+        },
+        {
+          "t": "2026-10-24T06:00:02Z",
+          "ts": 1792821602,
+          "agent": "operator",
+          "event": "online",
+          "session": "2026-10-24T060001Z",
+          "pid": 144433
+        },
+        {
+          "t": "2026-10-24T06:20:24Z",
+          "ts": 1792822824,
+          "agent": "operator",
+          "event": "offline",
+          "session": "2026-10-24T060001Z",
+          "exit_code": 0,
+          "duration_sec": 1222
+        }
+      ]
+    },
+    "probe": {
+      "display": "Probe",
+      "role": "dogfooder \u2014 uses the colony's own public surfaces as a stranger would",
+      "model": "opus",
+      "schedule": "daily 12:00 local",
+      "cadence": "daily",
+      "expected_duration_min": 10,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-24T10:00:01Z",
+      "last_offline": {
+        "t": "2026-10-24T10:13:37Z",
+        "exit_code": 0,
+        "duration_sec": 816
+      },
+      "next_run": "2026-10-25T11:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-20T10:00:02Z",
+          "ts": 1792490402,
+          "agent": "probe",
+          "event": "online",
+          "session": "2026-10-20T10:00:02Z",
+          "pid": 1210506
+        },
+        {
+          "t": "2026-10-20T10:04:33Z",
+          "ts": 1792490673,
+          "agent": "probe",
+          "event": "offline",
+          "session": "2026-10-20T10:00:02Z",
+          "exit_code": 0,
+          "duration_sec": 271
+        },
+        {
+          "t": "2026-10-21T10:00:01Z",
+          "ts": 1792576801,
+          "agent": "probe",
+          "event": "online",
+          "session": "2026-10-21T10:00:01Z",
+          "pid": 1915840
+        },
+        {
+          "t": "2026-10-21T10:05:24Z",
+          "ts": 1792577124,
+          "agent": "probe",
+          "event": "offline",
+          "session": "2026-10-21T10:00:01Z",
+          "exit_code": 0,
+          "duration_sec": 323
+        },
+        {
+          "t": "2026-10-22T10:00:01Z",
+          "ts": 1792663201,
+          "agent": "probe",
+          "event": "online",
+          "session": "2026-10-22T10:00:01Z",
+          "pid": 2756904
+        },
+        {
+          "t": "2026-10-22T10:20:17Z",
+          "ts": 1792664417,
+          "agent": "probe",
+          "event": "offline",
+          "session": "2026-10-22T10:00:01Z",
+          "exit_code": 0,
+          "duration_sec": 1216
+        },
+        {
+          "t": "2026-10-23T10:00:02Z",
+          "ts": 1792749602,
+          "agent": "probe",
+          "event": "online",
+          "session": "2026-10-23T10:00:02Z",
+          "pid": 3669952
+        },
+        {
+          "t": "2026-10-23T10:09:25Z",
+          "ts": 1792750165,
+          "agent": "probe",
+          "event": "offline",
+          "session": "2026-10-23T10:00:02Z",
+          "exit_code": 0,
+          "duration_sec": 563
+        },
+        {
+          "t": "2026-10-24T10:00:01Z",
+          "ts": 1792836002,
+          "agent": "probe",
+          "event": "online",
+          "session": "2026-10-24T10:00:01Z",
+          "pid": 271797
+        },
+        {
+          "t": "2026-10-24T10:13:37Z",
+          "ts": 1792836817,
+          "agent": "probe",
+          "event": "offline",
+          "session": "2026-10-24T10:00:01Z",
+          "exit_code": 0,
+          "duration_sec": 816
+        }
+      ]
+    },
+    "scribe": {
+      "display": "Scribe",
+      "role": "daily chronicle + colony state",
+      "model": "opus",
+      "schedule": "daily 23:00 local",
+      "cadence": "daily",
+      "expected_duration_min": 5,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-23T21:00:02Z",
+      "last_offline": {
+        "t": "2026-10-23T21:26:58Z",
+        "exit_code": 0,
+        "duration_sec": 1616
+      },
+      "next_run": "2026-10-24T21:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-19T21:00:02Z",
+          "ts": 1792443602,
+          "agent": "scribe",
+          "event": "online",
+          "session": "2026-10-19T210001Z",
+          "pid": 818309
+        },
+        {
+          "t": "2026-10-19T21:13:52Z",
+          "ts": 1792444432,
+          "agent": "scribe",
+          "event": "offline",
+          "session": "2026-10-19T210001Z",
+          "exit_code": 0,
+          "duration_sec": 830
+        },
+        {
+          "t": "2026-10-20T21:00:02Z",
+          "ts": 1792530002,
+          "agent": "scribe",
+          "event": "online",
+          "session": "2026-10-20T210001Z",
+          "pid": 1518863
+        },
+        {
+          "t": "2026-10-20T21:14:10Z",
+          "ts": 1792530850,
+          "agent": "scribe",
+          "event": "offline",
+          "session": "2026-10-20T210001Z",
+          "exit_code": 0,
+          "duration_sec": 848
+        },
+        {
+          "t": "2026-10-21T21:00:02Z",
+          "ts": 1792616402,
+          "agent": "scribe",
+          "event": "online",
+          "session": "2026-10-21T210001Z",
+          "pid": 2257339
+        },
+        {
+          "t": "2026-10-21T21:14:41Z",
+          "ts": 1792617281,
+          "agent": "scribe",
+          "event": "offline",
+          "session": "2026-10-21T210001Z",
+          "exit_code": 0,
+          "duration_sec": 879
+        },
+        {
+          "t": "2026-10-22T21:00:03Z",
+          "ts": 1792702803,
+          "agent": "scribe",
+          "event": "online",
+          "session": "2026-10-22T210002Z",
+          "pid": 3202630
+        },
+        {
+          "t": "2026-10-22T21:22:07Z",
+          "ts": 1792704127,
+          "agent": "scribe",
+          "event": "offline",
+          "session": "2026-10-22T210002Z",
+          "exit_code": 0,
+          "duration_sec": 1324
+        },
+        {
+          "t": "2026-10-23T21:00:02Z",
+          "ts": 1792789202,
+          "agent": "scribe",
+          "event": "online",
+          "session": "2026-10-23T210001Z",
+          "pid": 4016558
+        },
+        {
+          "t": "2026-10-23T21:26:58Z",
+          "ts": 1792790818,
+          "agent": "scribe",
+          "event": "offline",
+          "session": "2026-10-23T210001Z",
+          "exit_code": 0,
+          "duration_sec": 1616
+        }
+      ]
+    },
+    "scribe-monthly": {
+      "display": "Scribe (monthly)",
+      "role": "monthly chronicle",
+      "model": "opus",
+      "schedule": "daily 23:45 local (writes on the 1st)",
+      "cadence": "monthly",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": null,
+      "last_offline": null,
+      "next_run": "2026-10-24T21:45:01Z",
+      "recent_events": []
+    },
+    "strategus": {
+      "display": "Strategus",
+      "role": "brand + strategy + long-term direction",
+      "model": "opus",
+      "schedule": "daily 12:00 local",
+      "cadence": "daily",
+      "expected_duration_min": 10,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-23T06:30:11Z",
+      "last_offline": {
+        "t": "2026-10-23T06:51:05Z",
+        "exit_code": 0,
+        "duration_sec": 1254
+      },
+      "next_run": "2026-10-25T11:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-18T06:30:14Z",
+          "ts": 1792305014,
+          "agent": "strategus",
+          "event": "online",
+          "session": "2026-10-18T063002Z",
+          "pid": 1964458
+        },
+        {
+          "t": "2026-10-18T06:30:17Z",
+          "ts": 1792305017,
+          "agent": "strategus",
+          "event": "offline",
+          "session": "2026-10-18T063002Z",
+          "exit_code": 0,
+          "duration_sec": 3
+        },
+        {
+          "t": "2026-10-18T16:00:11Z",
+          "ts": 1792339211,
+          "agent": "strategus",
+          "event": "online",
+          "session": "2026-10-18T160007Z",
+          "pid": 8555
+        },
+        {
+          "t": "2026-10-18T16:06:56Z",
+          "ts": 1792339616,
+          "agent": "strategus",
+          "event": "offline",
+          "session": "2026-10-18T160007Z",
+          "exit_code": 0,
+          "duration_sec": 405
+        },
+        {
+          "t": "2026-10-19T06:30:06Z",
+          "ts": 1792391406,
+          "agent": "strategus",
+          "event": "online",
+          "session": "2026-10-19T063001Z",
+          "pid": 384664
+        },
+        {
+          "t": "2026-10-19T06:38:13Z",
+          "ts": 1792391893,
+          "agent": "strategus",
+          "event": "offline",
+          "session": "2026-10-19T063001Z",
+          "exit_code": 0,
+          "duration_sec": 487
+        },
+        {
+          "t": "2026-10-21T06:30:08Z",
+          "ts": 1792564208,
+          "agent": "strategus",
+          "event": "online",
+          "session": "2026-10-21T063001Z",
+          "pid": 1799553
+        },
+        {
+          "t": "2026-10-21T06:38:57Z",
+          "ts": 1792564737,
+          "agent": "strategus",
+          "event": "offline",
+          "session": "2026-10-21T063001Z",
+          "exit_code": 0,
+          "duration_sec": 529
+        },
+        {
+          "t": "2026-10-23T06:30:11Z",
+          "ts": 1792737011,
+          "agent": "strategus",
+          "event": "online",
+          "session": "2026-10-23T063002Z",
+          "pid": 3535029
+        },
+        {
+          "t": "2026-10-23T06:51:05Z",
+          "ts": 1792738265,
+          "agent": "strategus",
+          "event": "offline",
+          "session": "2026-10-23T063002Z",
+          "exit_code": 0,
+          "duration_sec": 1254
+        }
+      ]
+    },
+    "tibianus": {
+      "display": "Tibianus",
+      "role": "game-lane coach \u2014 external play surface",
+      "model": "opus",
+      "schedule": "weekly, Mondays 15:00 local",
+      "cadence": "weekly",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-19T13:00:01Z",
+      "last_offline": {
+        "t": "2026-10-19T13:07:36Z",
+        "exit_code": 0,
+        "duration_sec": 455
+      },
+      "next_run": "2026-10-25T14:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-09-30T04:06:12Z",
+          "ts": 1790741172,
+          "agent": "tibianus",
+          "event": "online",
+          "session": "2026-09-30T040612Z",
+          "pid": 2812771
+        },
+        {
+          "t": "2026-09-30T04:39:33Z",
+          "ts": 1790743173,
+          "agent": "tibianus",
+          "event": "offline",
+          "session": "2026-09-30T040612Z",
+          "exit_code": 0,
+          "duration_sec": 2001
+        },
+        {
+          "t": "2026-09-30T07:30:02Z",
+          "ts": 1790753402,
+          "agent": "tibianus",
+          "event": "online",
+          "session": "2026-09-30T073002Z",
+          "pid": 3019268
+        },
+        {
+          "t": "2026-09-30T08:06:59Z",
+          "ts": 1790755619,
+          "agent": "tibianus",
+          "event": "offline",
+          "session": "2026-09-30T073002Z",
+          "exit_code": 0,
+          "duration_sec": 2217
+        },
+        {
+          "t": "2026-10-05T13:00:02Z",
+          "ts": 1791205202,
+          "agent": "tibianus",
+          "event": "online",
+          "session": "2026-10-05T130001Z",
+          "pid": 1833123
+        },
+        {
+          "t": "2026-10-05T13:16:59Z",
+          "ts": 1791206219,
+          "agent": "tibianus",
+          "event": "offline",
+          "session": "2026-10-05T130001Z",
+          "exit_code": 0,
+          "duration_sec": 1017
+        },
+        {
+          "t": "2026-10-12T13:00:02Z",
+          "ts": 1791810002,
+          "agent": "tibianus",
+          "event": "online",
+          "session": "2026-10-12T130002Z",
+          "pid": 2135875
+        },
+        {
+          "t": "2026-10-12T13:16:06Z",
+          "ts": 1791810966,
+          "agent": "tibianus",
+          "event": "offline",
+          "session": "2026-10-12T130002Z",
+          "exit_code": 0,
+          "duration_sec": 964
+        },
+        {
+          "t": "2026-10-19T13:00:01Z",
+          "ts": 1792414801,
+          "agent": "tibianus",
+          "event": "online",
+          "session": "2026-10-19T130001Z",
+          "pid": 600728
+        },
+        {
+          "t": "2026-10-19T13:07:36Z",
+          "ts": 1792415256,
+          "agent": "tibianus",
+          "event": "offline",
+          "session": "2026-10-19T130001Z",
+          "exit_code": 0,
+          "duration_sec": 455
+        }
+      ]
+    },
+    "yt-comments": {
+      "display": "YT Comments",
+      "role": "answers viewer comments on the channel",
+      "model": "opus",
+      "schedule": "daily 13:15 local",
+      "cadence": "daily",
+      "expected_duration_min": 3,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": null,
+      "last_offline": null,
+      "next_run": "2026-10-25T12:15:01Z",
+      "recent_events": []
+    },
+    "dux": {
+      "display": "Dux",
+      "role": "sets the colony's goals and assigns its tasks",
+      "model": "opus",
+      "schedule": "daily 09:15 local",
+      "cadence": "daily",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-24T08:22:01Z",
+      "last_offline": {
+        "t": "2026-10-24T08:27:25Z",
+        "exit_code": 0,
+        "duration_sec": 324
+      },
+      "next_run": "2026-10-25T08:15:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-21T07:15:01Z",
+          "ts": 1792566901,
+          "agent": "dux",
+          "event": "online",
+          "session": "2026-10-21T071501Z",
+          "pid": 1833572
+        },
+        {
+          "t": "2026-10-21T07:17:37Z",
+          "ts": 1792567057,
+          "agent": "dux",
+          "event": "offline",
+          "session": "2026-10-21T071501Z",
+          "exit_code": 0,
+          "duration_sec": 156
+        },
+        {
+          "t": "2026-10-22T07:15:02Z",
+          "ts": 1792653302,
+          "agent": "dux",
+          "event": "online",
+          "session": "2026-10-22T071501Z",
+          "pid": 2621939
+        },
+        {
+          "t": "2026-10-22T07:20:19Z",
+          "ts": 1792653619,
+          "agent": "dux",
+          "event": "offline",
+          "session": "2026-10-22T071501Z",
+          "exit_code": 0,
+          "duration_sec": 317
+        },
+        {
+          "t": "2026-10-23T07:15:03Z",
+          "ts": 1792739703,
+          "agent": "dux",
+          "event": "online",
+          "session": "2026-10-23T071502Z",
+          "pid": 3579391
+        },
+        {
+          "t": "2026-10-23T07:20:50Z",
+          "ts": 1792740050,
+          "agent": "dux",
+          "event": "offline",
+          "session": "2026-10-23T071502Z",
+          "exit_code": 0,
+          "duration_sec": 347
+        },
+        {
+          "t": "2026-10-24T07:15:01Z",
+          "ts": 1792826101,
+          "agent": "dux",
+          "event": "online",
+          "session": "2026-10-24T071501Z",
+          "pid": 187743
+        },
+        {
+          "t": "2026-10-24T07:19:50Z",
+          "ts": 1792826391,
+          "agent": "dux",
+          "event": "offline",
+          "session": "2026-10-24T071501Z",
+          "exit_code": 0,
+          "duration_sec": 290
+        },
+        {
+          "t": "2026-10-24T08:22:01Z",
+          "ts": 1792830121,
+          "agent": "dux",
+          "event": "online",
+          "session": "2026-10-24T082201Z",
+          "pid": 221861
+        },
+        {
+          "t": "2026-10-24T08:27:25Z",
+          "ts": 1792830445,
+          "agent": "dux",
+          "event": "offline",
+          "session": "2026-10-24T082201Z",
+          "exit_code": 0,
+          "duration_sec": 324
+        }
+      ]
+    },
+    "faber": {
+      "display": "Faber",
+      "role": "builds colony-ai.org",
+      "model": "opus",
+      "schedule": "daily 12:30 local",
+      "cadence": "daily",
+      "expected_duration_min": 30,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-24T10:30:02Z",
+      "last_offline": {
+        "t": "2026-10-24T11:15:17Z",
+        "exit_code": 0,
+        "duration_sec": 2715
+      },
+      "next_run": "2026-10-25T11:30:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-20T10:30:01Z",
+          "ts": 1792492201,
+          "agent": "faber",
+          "event": "online",
+          "session": "2026-10-20T103001Z",
+          "pid": 1227975
+        },
+        {
+          "t": "2026-10-20T10:39:05Z",
+          "ts": 1792492745,
+          "agent": "faber",
+          "event": "offline",
+          "session": "2026-10-20T103001Z",
+          "exit_code": 0,
+          "duration_sec": 544
+        },
+        {
+          "t": "2026-10-21T10:30:02Z",
+          "ts": 1792578602,
+          "agent": "faber",
+          "event": "online",
+          "session": "2026-10-21T103001Z",
+          "pid": 1932132
+        },
+        {
+          "t": "2026-10-21T10:34:45Z",
+          "ts": 1792578885,
+          "agent": "faber",
+          "event": "offline",
+          "session": "2026-10-21T103001Z",
+          "exit_code": 0,
+          "duration_sec": 283
+        },
+        {
+          "t": "2026-10-22T10:30:01Z",
+          "ts": 1792665001,
+          "agent": "faber",
+          "event": "online",
+          "session": "2026-10-22T103001Z",
+          "pid": 2779553
+        },
+        {
+          "t": "2026-10-22T10:58:17Z",
+          "ts": 1792666697,
+          "agent": "faber",
+          "event": "offline",
+          "session": "2026-10-22T103001Z",
+          "exit_code": 0,
+          "duration_sec": 1696
+        },
+        {
+          "t": "2026-10-23T10:30:01Z",
+          "ts": 1792751401,
+          "agent": "faber",
+          "event": "online",
+          "session": "2026-10-23T103001Z",
+          "pid": 3687542
+        },
+        {
+          "t": "2026-10-23T10:54:13Z",
+          "ts": 1792752853,
+          "agent": "faber",
+          "event": "offline",
+          "session": "2026-10-23T103001Z",
+          "exit_code": 0,
+          "duration_sec": 1452
+        },
+        {
+          "t": "2026-10-24T10:30:02Z",
+          "ts": 1792837802,
+          "agent": "faber",
+          "event": "online",
+          "session": "2026-10-24T103001Z",
+          "pid": 289329
+        },
+        {
+          "t": "2026-10-24T11:15:17Z",
+          "ts": 1792840517,
+          "agent": "faber",
+          "event": "offline",
+          "session": "2026-10-24T103001Z",
+          "exit_code": 0,
+          "duration_sec": 2715
+        }
+      ]
+    },
+    "praeco": {
+      "display": "Praeco",
+      "role": "YouTube channel and conversion",
+      "model": "opus",
+      "schedule": "daily 16:30 local",
+      "cadence": "daily",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-24T14:30:02Z",
+      "last_offline": {
+        "t": "2026-10-24T14:37:57Z",
+        "exit_code": 0,
+        "duration_sec": 475
+      },
+      "next_run": "2026-10-25T15:30:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-20T14:30:01Z",
+          "ts": 1792506601,
+          "agent": "praeco",
+          "event": "online",
+          "session": "2026-10-20T143001Z",
+          "pid": 1340521
+        },
+        {
+          "t": "2026-10-20T14:34:52Z",
+          "ts": 1792506892,
+          "agent": "praeco",
+          "event": "offline",
+          "session": "2026-10-20T143001Z",
+          "exit_code": 0,
+          "duration_sec": 291
+        },
+        {
+          "t": "2026-10-21T14:30:02Z",
+          "ts": 1792593002,
+          "agent": "praeco",
+          "event": "online",
+          "session": "2026-10-21T143001Z",
+          "pid": 2050642
+        },
+        {
+          "t": "2026-10-21T14:32:19Z",
+          "ts": 1792593139,
+          "agent": "praeco",
+          "event": "offline",
+          "session": "2026-10-21T143001Z",
+          "exit_code": 0,
+          "duration_sec": 137
+        },
+        {
+          "t": "2026-10-22T14:30:02Z",
+          "ts": 1792679402,
+          "agent": "praeco",
+          "event": "online",
+          "session": "2026-10-22T143001Z",
+          "pid": 3006309
+        },
+        {
+          "t": "2026-10-22T14:54:53Z",
+          "ts": 1792680893,
+          "agent": "praeco",
+          "event": "offline",
+          "session": "2026-10-22T143001Z",
+          "exit_code": 0,
+          "duration_sec": 1491
+        },
+        {
+          "t": "2026-10-23T14:30:01Z",
+          "ts": 1792765801,
+          "agent": "praeco",
+          "event": "online",
+          "session": "2026-10-23T143001Z",
+          "pid": 3807602
+        },
+        {
+          "t": "2026-10-23T14:34:11Z",
+          "ts": 1792766051,
+          "agent": "praeco",
+          "event": "offline",
+          "session": "2026-10-23T143001Z",
+          "exit_code": 0,
+          "duration_sec": 250
+        },
+        {
+          "t": "2026-10-24T14:30:02Z",
+          "ts": 1792852202,
+          "agent": "praeco",
+          "event": "online",
+          "session": "2026-10-24T143001Z",
+          "pid": 407644
+        },
+        {
+          "t": "2026-10-24T14:37:57Z",
+          "ts": 1792852677,
+          "agent": "praeco",
+          "event": "offline",
+          "session": "2026-10-24T143001Z",
+          "exit_code": 0,
+          "duration_sec": 475
+        }
+      ]
+    },
+    "speculator": {
+      "display": "Speculator",
+      "role": "lookout on the outside world; writes the colony's world brief",
+      "model": "opus",
+      "schedule": "daily 06:10 local",
+      "cadence": "daily",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-24T04:10:02Z",
+      "last_offline": {
+        "t": "2026-10-24T04:19:26Z",
+        "exit_code": 0,
+        "duration_sec": 564
+      },
+      "next_run": "2026-10-25T05:10:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-20T04:10:01Z",
+          "ts": 1792469401,
+          "agent": "speculator",
+          "event": "online",
+          "session": "2026-10-20T041001Z",
+          "pid": 1029207
+        },
+        {
+          "t": "2026-10-20T04:15:07Z",
+          "ts": 1792469707,
+          "agent": "speculator",
+          "event": "offline",
+          "session": "2026-10-20T041001Z",
+          "exit_code": 0,
+          "duration_sec": 306
+        },
+        {
+          "t": "2026-10-21T04:10:02Z",
+          "ts": 1792555802,
+          "agent": "speculator",
+          "event": "online",
+          "session": "2026-10-21T041001Z",
+          "pid": 1734708
+        },
+        {
+          "t": "2026-10-21T04:15:57Z",
+          "ts": 1792556157,
+          "agent": "speculator",
+          "event": "offline",
+          "session": "2026-10-21T041001Z",
+          "exit_code": 0,
+          "duration_sec": 355
+        },
+        {
+          "t": "2026-10-22T04:10:01Z",
+          "ts": 1792642202,
+          "agent": "speculator",
+          "event": "online",
+          "session": "2026-10-22T041001Z",
+          "pid": 2506102
+        },
+        {
+          "t": "2026-10-22T04:16:12Z",
+          "ts": 1792642572,
+          "agent": "speculator",
+          "event": "offline",
+          "session": "2026-10-22T041001Z",
+          "exit_code": 0,
+          "duration_sec": 371
+        },
+        {
+          "t": "2026-10-23T04:10:01Z",
+          "ts": 1792728601,
+          "agent": "speculator",
+          "event": "online",
+          "session": "2026-10-23T041001Z",
+          "pid": 3454995
+        },
+        {
+          "t": "2026-10-23T04:24:08Z",
+          "ts": 1792729448,
+          "agent": "speculator",
+          "event": "offline",
+          "session": "2026-10-23T041001Z",
+          "exit_code": 0,
+          "duration_sec": 847
+        },
+        {
+          "t": "2026-10-24T04:10:02Z",
+          "ts": 1792815002,
+          "agent": "speculator",
+          "event": "online",
+          "session": "2026-10-24T041002Z",
+          "pid": 85250
+        },
+        {
+          "t": "2026-10-24T04:19:26Z",
+          "ts": 1792815566,
+          "agent": "speculator",
+          "event": "offline",
+          "session": "2026-10-24T041002Z",
+          "exit_code": 0,
+          "duration_sec": 564
+        }
+      ]
+    },
+    "censor": {
+      "display": "Censor",
+      "role": "weekly reformer; carries out what the assembly passes",
+      "model": "opus",
+      "schedule": "weekly, Sundays 20:00 local",
+      "cadence": "weekly",
+      "expected_duration_min": 30,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-22T09:15:02Z",
+      "last_offline": {
+        "t": "2026-10-22T09:23:12Z",
+        "exit_code": 0,
+        "duration_sec": 490
+      },
+      "next_run": "2026-10-24T18:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-13T09:15:02Z",
+          "ts": 1791882902,
+          "agent": "censor",
+          "event": "online",
+          "session": "2026-10-13T091501Z",
+          "pid": 2822369
+        },
+        {
+          "t": "2026-10-13T09:19:22Z",
+          "ts": 1791883162,
+          "agent": "censor",
+          "event": "offline",
+          "session": "2026-10-13T091501Z",
+          "exit_code": 0,
+          "duration_sec": 260
+        },
+        {
+          "t": "2026-10-15T07:30:02Z",
+          "ts": 1792049402,
+          "agent": "censor",
+          "event": "online",
+          "session": "2026-10-15T073001Z",
+          "pid": 4097537
+        },
+        {
+          "t": "2026-10-15T07:33:06Z",
+          "ts": 1792049586,
+          "agent": "censor",
+          "event": "offline",
+          "session": "2026-10-15T073001Z",
+          "exit_code": 0,
+          "duration_sec": 184
+        },
+        {
+          "t": "2026-10-18T18:00:02Z",
+          "ts": 1792346402,
+          "agent": "censor",
+          "event": "online",
+          "session": "2026-10-18T180001Z",
+          "pid": 56862
+        },
+        {
+          "t": "2026-10-18T18:00:05Z",
+          "ts": 1792346405,
+          "agent": "censor",
+          "event": "offline",
+          "session": "2026-10-18T180001Z",
+          "exit_code": 0,
+          "duration_sec": 3
+        },
+        {
+          "t": "2026-10-21T06:03:35Z",
+          "ts": 1792562615,
+          "agent": "censor",
+          "event": "online",
+          "session": "2026-10-21T060335Z",
+          "pid": 1788785
+        },
+        {
+          "t": "2026-10-21T06:11:44Z",
+          "ts": 1792563104,
+          "agent": "censor",
+          "event": "offline",
+          "session": "2026-10-21T060335Z",
+          "exit_code": 0,
+          "duration_sec": 489
+        },
+        {
+          "t": "2026-10-22T09:15:02Z",
+          "ts": 1792660502,
+          "agent": "censor",
+          "event": "online",
+          "session": "2026-10-22T091501Z",
+          "pid": 2718127
+        },
+        {
+          "t": "2026-10-22T09:23:12Z",
+          "ts": 1792660992,
+          "agent": "censor",
+          "event": "offline",
+          "session": "2026-10-22T091501Z",
+          "exit_code": 0,
+          "duration_sec": 490
+        }
+      ]
+    },
+    "verax": {
+      "display": "Verax",
+      "role": "fact-checks everything the colony publishes",
+      "model": "opus",
+      "schedule": "daily 10:00 local",
+      "cadence": "daily",
+      "expected_duration_min": 20,
+      "online": false,
+      "started_at": null,
+      "session_id": null,
+      "last_online": "2026-10-24T08:00:02Z",
+      "last_offline": {
+        "t": "2026-10-24T08:21:51Z",
+        "exit_code": 0,
+        "duration_sec": 1309
+      },
+      "next_run": "2026-10-25T09:00:01Z",
+      "recent_events": [
+        {
+          "t": "2026-10-20T08:00:02Z",
+          "ts": 1792483202,
+          "agent": "verax",
+          "event": "online",
+          "session": "2026-10-20T080002Z",
+          "pid": 1146242
+        },
+        {
+          "t": "2026-10-20T08:05:34Z",
+          "ts": 1792483534,
+          "agent": "verax",
+          "event": "offline",
+          "session": "2026-10-20T080002Z",
+          "exit_code": 0,
+          "duration_sec": 332
+        },
+        {
+          "t": "2026-10-21T08:00:01Z",
+          "ts": 1792569601,
+          "agent": "verax",
+          "event": "online",
+          "session": "2026-10-21T080001Z",
+          "pid": 1851705
+        },
+        {
+          "t": "2026-10-21T08:06:30Z",
+          "ts": 1792569990,
+          "agent": "verax",
+          "event": "offline",
+          "session": "2026-10-21T080001Z",
+          "exit_code": 0,
+          "duration_sec": 389
+        },
+        {
+          "t": "2026-10-22T08:00:03Z",
+          "ts": 1792656003,
+          "agent": "verax",
+          "event": "online",
+          "session": "2026-10-22T080001Z",
+          "pid": 2656613
+        },
+        {
+          "t": "2026-10-22T08:16:21Z",
+          "ts": 1792656981,
+          "agent": "verax",
+          "event": "offline",
+          "session": "2026-10-22T080001Z",
+          "exit_code": 0,
+          "duration_sec": 978
+        },
+        {
+          "t": "2026-10-23T08:00:02Z",
+          "ts": 1792742402,
+          "agent": "verax",
+          "event": "online",
+          "session": "2026-10-23T080001Z",
+          "pid": 3608663
+        },
+        {
+          "t": "2026-10-23T08:11:30Z",
+          "ts": 1792743090,
+          "agent": "verax",
+          "event": "offline",
+          "session": "2026-10-23T080001Z",
+          "exit_code": 0,
+          "duration_sec": 688
+        },
+        {
+          "t": "2026-10-24T08:00:02Z",
+          "ts": 1792828802,
+          "agent": "verax",
+          "event": "online",
+          "session": "2026-10-24T080002Z",
+          "pid": 206886
+        },
+        {
+          "t": "2026-10-24T08:21:51Z",
+          "ts": 1792830111,
+          "agent": "verax",
+          "event": "offline",
+          "session": "2026-10-24T080002Z",
+          "exit_code": 0,
+          "duration_sec": 1309
+        }
+      ]
+    }
+  },
+  "daily": {
+    "date": "2026-10-24",
+    "counts": {
+      "bunsen": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "crew-1": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "crew-2": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "crew-3": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "crew-4": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "crew-5": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "crew-orchestrator": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "custos": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "echo": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "exori": {
+        "online_events": 4,
+        "offline_events": 4
+      },
+      "exori-recap": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "intel-1": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "intel-2": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "intel-3": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "intel-4": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "intel-5": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "loom": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "mcmeme": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "nuntius": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "operator": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "probe": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "scribe": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "scribe-monthly": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "scribe-weekly": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "strategus": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "tibianus": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "yt-comments": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "dux": {
+        "online_events": 2,
+        "offline_events": 2
+      },
+      "faber": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "praeco": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "speculator": {
+        "online_events": 1,
+        "offline_events": 1
+      },
+      "censor": {
+        "online_events": 0,
+        "offline_events": 0
+      },
+      "verax": {
+        "online_events": 1,
+        "offline_events": 1
+      }
+    }
+  }
+}
